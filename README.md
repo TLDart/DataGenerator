@@ -4,7 +4,7 @@ This script uses the faker python library and therefore to use it you will need 
 
 ## Docs
 This script generates random data according to user preference
-###How-to-use
+### How-to-use
 ->python3 data_generator.py {SOURCE} {DEST} {SIZE} {DELIMITER} {PARAMETERS}
 
 SOURCE: This is an optional parameters that parses 2 parameters out of a csv file into a list with no repetitions, write 'none' you don't want this option enabled
