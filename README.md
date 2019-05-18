@@ -1,9 +1,10 @@
-#Dataset Creator
+# Dataset Creator
+
 This script uses the faker python library and therefore to use it you will need to install it
 
-##Docs
+## Docs
 This script generates random data according to user preference
-###How-to-use
+### How-to-use
 ->python3 data_generator.py {SOURCE} {DEST} {SIZE} {DELIMITER} {PARAMETERS}
 
 SOURCE: This is an optional parameters that parses 2 parameters out of a csv file into a list with no repetitions, write 'none' you don't want this option enabled
@@ -34,7 +35,7 @@ SOURCE: This is an optional parameters that parses 2 parameters out of a csv fil
 ### Sample uses
 USAGE
 
-python3 data_generatorV2.py '/home/user/Documents/US.txt' '/home/tld/Documents/output.txt' 10 username,password,name,address,bdate_day,bdate_month,bdate_year,locals,pdis
+python3 data_generatorV2.py '/home/user/Documents/US.txt' '/home/user/Documents/output.txt' 10 username,password,name,address,bdate_day,bdate_month,bdate_year,locals,pdis
 
 OUTPUT
 
