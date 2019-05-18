@@ -1,0 +1,5 @@
+Changelog 18/5
+Changed data_generator to now support allow_duplicates
+Created generate_list_no_repetition, that generates a list from {DATASET} of size {SIZE}
+Renamed US_parser to additional_data_parser
+Changed var US to proper name (path)
